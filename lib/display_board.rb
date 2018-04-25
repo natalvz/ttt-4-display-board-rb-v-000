@@ -5,7 +5,7 @@ def display_board(board = [" "," "," "," "," "," "," "," "," "])
   cell = "   "
   separate = "|"
   row = "-----------"
-  puts "#{cell}#{separate}#{cell}#{separate}#{cell}"
+  puts "#board{0}#{separate}#{cell}#{separate}#{cell}"
   puts "#{row}"
   puts "#{cell}#{separate}#{cell}#{separate}#{cell}"
   puts "#{row}"
