@@ -2,7 +2,6 @@
 # out the current state.
  
 def display_board(board = [" "," "," "," "," "," "," "," "," "])
-  cell = "   "
   separate = "|"
   row = "-----------"
   puts " #{board[0]} #{separate} #{board[1]} #{separate} #{board[2]} ";
